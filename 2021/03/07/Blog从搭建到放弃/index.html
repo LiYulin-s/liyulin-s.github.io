@@ -1,0 +1,176 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Blog从搭建到放弃 | Hexo</title><meta name="author" content="John Doe"><meta name="copyright" content="John Doe"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Blog从搭建到放弃成功  前期准备下载相关软件 Xampp  Putty  Winscp  Debian安装镜像  安装Debian  ISO文件下载完成后刻录它到 USB 或 DVD，使其可用来启动。 使用安装可启动介质（USB &#x2F; DVD）启动你的电脑系统重启你将安装 Debian 10 的电脑，转到 BIOS 设置，并设置启动介质为 USB 或 DVD。 用可启动介质启动电脑后，那么我们将">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Blog从搭建到放弃">
+<meta property="og:url" content="http://hezeliyulin.gitee.io/2021/03/07/Blog%E4%BB%8E%E6%90%AD%E5%BB%BA%E5%88%B0%E6%94%BE%E5%BC%83/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="Blog从搭建到放弃成功  前期准备下载相关软件 Xampp  Putty  Winscp  Debian安装镜像  安装Debian  ISO文件下载完成后刻录它到 USB 或 DVD，使其可用来启动。 使用安装可启动介质（USB &#x2F; DVD）启动你的电脑系统重启你将安装 Debian 10 的电脑，转到 BIOS 设置，并设置启动介质为 USB 或 DVD。 用可启动介质启动电脑后，那么我们将">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg">
+<meta property="article:published_time" content="2021-03-07T06:45:28.000Z">
+<meta property="article:modified_time" content="2021-03-07T06:46:15.239Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://hezeliyulin.gitee.io/2021/03/07/Blog%E4%BB%8E%E6%90%AD%E5%BB%BA%E5%88%B0%E6%94%BE%E5%BC%83/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2021-03-07 14:46:15'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    })(window)</script><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="/null" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a></div></div></div><hr/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Hexo</a></span><div id="menus"><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Blog从搭建到放弃</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-03-07T06:45:28.000Z" title="发表于 2021-03-07 14:45:28">2021-03-07</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-03-07T06:46:15.239Z" title="更新于 2021-03-07 14:46:15">2021-03-07</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="Blog从搭建到放弃成功"><a href="#Blog从搭建到放弃成功" class="headerlink" title="Blog从搭建到放弃成功"></a>Blog从搭建到<del>放弃</del>成功</h1><!-- index-menu -->
+
+<h2 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h2><h3 id="下载相关软件"><a href="#下载相关软件" class="headerlink" title="下载相关软件"></a>下载相关软件</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://www.apachefriends.org/xampp-files/7.2.30/xampp-linux-x64-7.2.30-0-installer.run">Xampp</a> </li>
+<li><a target="_blank" rel="noopener" href="https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.73-installer.msi">Putty</a> </li>
+<li><a target="_blank" rel="noopener" href="https://winscp.net/eng/docs/lang:chs">Winscp</a> </li>
+<li><a target="_blank" rel="noopener" href="https://mirrors.tuna.tsinghua.edu.cn/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.8.0-amd64-lxde.iso">Debian安装镜像</a></li>
+</ul>
+<h3 id="安装Debian"><a href="#安装Debian" class="headerlink" title="安装Debian"></a>安装Debian</h3><blockquote>
+<ol>
+<li>ISO文件下载完成后刻录它到 USB 或 DVD，使其可用来启动。</li>
+<li><strong>使用安装可启动介质（USB / DVD）启动你的电脑系统重启你将安装 Debian 10 的电脑</strong>，转到 BIOS 设置，并设置启动介质为 USB 或 DVD。 用可启动介质启动电脑后，那么我们将看到下面的屏幕。选择第一个选项 “GraphicalInstall”。</li>
+<li><strong>选择你的首选语言、位置和键盘布局</strong>。在这个步骤中，你将被要求选择你的首选语言。点击 “Continue”。选择你的首选位置，电脑系统将依照位置自动设置时区。现在选择适合于你安装设备的键盘布局。点击 “Continue”<br>以继续。</li>
+<li><strong>为 Debian 10 系统设置主机名称和域名</strong>。设置适合于你的环境的主机名，然后在 “Continue” 上单击，就我而言, 我指定主机名为 “debian10-buster”。指定适合于环境的域名，并安装，然后在 “Continue” 上单击。</li>
+<li><strong>指定 root 用户的密码</strong>，在下面的屏幕中指定 root 密码，然后在 “Continue” 上单击。</li>
+<li><strong>创建本地用户和它的密码</strong>。在这个步骤中，你将被提示指定本地用户具体信息，如完整的姓名、用户名和密码，在“Continue” 上单击。在 “Continue” 上单击，并在接下来的窗口中指定密码。</li>
+<li><strong>为 Debian 10 选择硬盘分区方案</strong>。在这个步骤中，为 Debian 10 选择硬盘分区方案，就我而言，我有 40 GB 硬盘可用于操作系统安装。分区方案有两种类型：<em>向导分区</em>（安装器将自动创建需要的分区），<em>手动分区</em>（正如名字所示，使用这种方式，我们可以手动创建分区方案）在这篇教程中，我们将在我42 GB 硬盘上使用带有 LVM 的向导分区。在 “Continue” 上单击来继续，正如我们所视，我大约有 42 GB 硬盘空间，选择“Continue”。在接下来的屏幕中，你将被要求选择分区，如果是 Linux 新用户，那么选择第一个选项。假使你想要一个独立的 home分区，那么选择第二种方案，否则选择第三种方案，它们将为 /home、/var 和 /tmp创建独立的分区。就我而言，我将通过选择第三种选项来为 /home、/var 和 /tmp 创建独立的分区。在接下来的屏幕中，选择 “yes”来将更改写到磁盘中，配置 LVM ，然后在 “Continue” 上单击。在接下来的屏幕中，将显示分区表，验证分区大小、文件系统类型和挂载点。在 “Continue” 上单击来继续，在接下来的屏幕中，选择“yes” 来写更改到磁盘中，在 “Continue” 上单击来继续安装，</li>
+<li><strong>Debian 10 安装开始</strong>。在这一步骤中，Debian 10 的安装已经开始，并正在进行中，在安装期间，安装器将提示你扫描 CD/DVD 以配置软件包管理器，选择 “No” ，然后在 “Continue”上单击。在接下来的屏幕中，如果你想配置基于网络的软件包管理器选择 “yes” ，但是为了使这个方式工作，要确保你的系统连接到了网络，否则选择“No”。在 “Continue” 上单击来配置基于你本地的软件包管理器，在接下来的几个屏幕中，你将被提示选择本地和 Debian软件包存储库 URL ，然后你将获得下面的屏幕。选择 “No” 来跳过软件包审查步骤，然后在 “Continue”上单击。在接下来的窗口中，你将被提示选择电脑桌面环境和其它软件包，就我而言，我选择 “Gnome Desktop” ，“SSHServer” 和 “Standard System utilities”。在 “Continue” 上单击来继续安装，选择选项 “yes”来安装 Grub 引导加载程序。在 “Continue”上单击来继续，然后在接下来的窗口中选择将安装引导加载程序的磁盘（/dev/sda）。在 “Continue”上单击来继续安装，一旦安装完成，安装器将提示我们来重启系统，在 “Continue” 上单击来重启你的系统，不要忘记在 BIOS设置中更改启动介质，以便系统从我们已经安装 Debian 10 操作系统的硬盘启动。</li>
+<li><strong>启动你新安装的 Debian 10 系统</strong>。在成功安装后，一旦我们重启系统，我们将获取下面的引导加载程序屏幕。选择第一个选项 “Debian GNU/Linux”并敲击回车键。一旦系统启动，使用我在安装期间创建的本地用户和它的密码。在成功登录后，将看到如下电脑桌面屏幕，这证实 Debian 10已经成功安装。</li>
+</ol>
+</blockquote>
+<h2 id="搭建服务端"><a href="#搭建服务端" class="headerlink" title="搭建服务端"></a>搭建服务端</h2><blockquote>
+<p>你只需要一双勤劳的手，和充足的时间！</p>
+</blockquote>
+<h3 id="在服务器端安装ssh"><a href="#在服务器端安装ssh" class="headerlink" title="在服务器端安装ssh"></a>在服务器端安装ssh</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> apt install openssh</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> systemctl start ssh</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> systemctl <span class="built_in">enable</span> ssh</span></span><br></pre></td></tr></table></figure>
+<h3 id="安装Winscp"><a href="#安装Winscp" class="headerlink" title="安装Winscp"></a>安装Winscp</h3><ol>
+<li>下载WinSCP 5.7 双击”WinSCP “进行安装，选择”简体中文”。 <br><img src="http://blog.liyulin.top/typecho/usr/uploads/2021/02/3656459387.png#vwid=299&vhei=152" alt="20151107113930629.png"></li>
+<li>然后点击下一步，选择”我接受”。 <br><img src="http://blog.liyulin.top/typecho/usr/uploads/2021/02/3935051090.png#vwid=499&vhei=387" alt="20151107114809234.png"></li>
+<li>选择安装组件，这里默认即可。 <br><img src="http://blog.liyulin.top/typecho/usr/uploads/2021/02/318867946.png#vwid=499&vhei=387" alt="20151107115347370.png"></li>
+<li>选择额外任务，这里根据个人喜好来选择（我选择默认）。 <img src="http://blog.liyulin.top/typecho/usr/uploads/2021/02/271344820.png#vwid=499&vhei=387" alt="20151107115427072.png"></li>
+<li>初始化用户设置选择”用户界面风格”。 <img src="http://blog.liyulin.top/typecho/usr/uploads/2021/02/1642436597.png#vwid=499&vhei=387" alt="20151107115556628.png"></li>
+<li>准备安装，确认检查设置（可通过”上一步”进行修改）。 <img src="http://blog.liyulin.top/typecho/usr/uploads/2021/02/2739655249.png#vwid=499&vhei=387" alt="20151107115652615.png"></li>
+<li>然后开始，安装完成。 <img src="http://blog.liyulin.top/typecho/usr/uploads/2021/02/4147986869.png#vwid=499&vhei=387" alt="20151107115758014.png"></li>
+</ol>
+<h2 id="配置服务端"><a href="#配置服务端" class="headerlink" title="配置服务端"></a>配置服务端</h2><h2 id="安装blog软件"><a href="#安装blog软件" class="headerlink" title="安装blog软件"></a>安装blog软件</h2><h2 id="微调"><a href="#微调" class="headerlink" title="微调"></a>微调</h2><h2 id="公网穿透"><a href="#公网穿透" class="headerlink" title="公网穿透"></a>公网穿透</h2><h2 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h2></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">John Doe</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://hezeliyulin.gitee.io/2021/03/07/Blog%E4%BB%8E%E6%90%AD%E5%BB%BA%E5%88%B0%E6%94%BE%E5%BC%83/">http://hezeliyulin.gitee.io/2021/03/07/Blog%E4%BB%8E%E6%90%AD%E5%BB%BA%E5%88%B0%E6%94%BE%E5%BC%83/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://hezeliyulin.gitee.io" target="_blank">Hexo</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2021/03/07/hello-world/"><img class="next-cover" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Hello World</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-info-avatar is-center"><img class="avatar-img" src="/null" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">John Doe</div><div class="author-info__description"></div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Blog%E4%BB%8E%E6%90%AD%E5%BB%BA%E5%88%B0%E6%94%BE%E5%BC%83%E6%88%90%E5%8A%9F"><span class="toc-number">1.</span> <span class="toc-text">Blog从搭建到放弃成功</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E6%9C%9F%E5%87%86%E5%A4%87"><span class="toc-number">1.1.</span> <span class="toc-text">前期准备</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8B%E8%BD%BD%E7%9B%B8%E5%85%B3%E8%BD%AF%E4%BB%B6"><span class="toc-number">1.1.1.</span> <span class="toc-text">下载相关软件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85Debian"><span class="toc-number">1.1.2.</span> <span class="toc-text">安装Debian</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%90%AD%E5%BB%BA%E6%9C%8D%E5%8A%A1%E7%AB%AF"><span class="toc-number">1.2.</span> <span class="toc-text">搭建服务端</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9C%A8%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF%E5%AE%89%E8%A3%85ssh"><span class="toc-number">1.2.1.</span> <span class="toc-text">在服务器端安装ssh</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85Winscp"><span class="toc-number">1.2.2.</span> <span class="toc-text">安装Winscp</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%85%8D%E7%BD%AE%E6%9C%8D%E5%8A%A1%E7%AB%AF"><span class="toc-number">1.3.</span> <span class="toc-text">配置服务端</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E8%A3%85blog%E8%BD%AF%E4%BB%B6"><span class="toc-number">1.4.</span> <span class="toc-text">安装blog软件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BE%AE%E8%B0%83"><span class="toc-number">1.5.</span> <span class="toc-text">微调</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%AC%E7%BD%91%E7%A9%BF%E9%80%8F"><span class="toc-number">1.6.</span> <span class="toc-text">公网穿透</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%8C%E6%88%90"><span class="toc-number">1.7.</span> <span class="toc-text">完成</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2021/03/07/Blog%E4%BB%8E%E6%90%AD%E5%BB%BA%E5%88%B0%E6%94%BE%E5%BC%83/" title="Blog从搭建到放弃"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Blog从搭建到放弃"/></a><div class="content"><a class="title" href="/2021/03/07/Blog%E4%BB%8E%E6%90%AD%E5%BB%BA%E5%88%B0%E6%94%BE%E5%BC%83/" title="Blog从搭建到放弃">Blog从搭建到放弃</a><time datetime="2021-03-07T06:45:28.000Z" title="发表于 2021-03-07 14:45:28">2021-03-07</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/03/07/hello-world/" title="Hello World"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hello World"/></a><div class="content"><a class="title" href="/2021/03/07/hello-world/" title="Hello World">Hello World</a><time datetime="2021-03-07T06:22:14.657Z" title="发表于 2021-03-07 14:22:14">2021-03-07</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2021 By John Doe</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
