@@ -1,20 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>一个越共的Blog</title>
   
-  
+  <subtitle>电子越共会梦见仿生胡志明吗？</subtitle>
   <link href="http://hezeliyulin.gitee.io/atom.xml" rel="self"/>
   
   <link href="http://hezeliyulin.gitee.io/"/>
-  <updated>2021-03-07T06:46:15.239Z</updated>
+  <updated>2021-03-07T09:31:09.342Z</updated>
   <id>http://hezeliyulin.gitee.io/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>Li Yulin</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>about</title>
+    <link href="http://hezeliyulin.gitee.io/2021/03/07/about/"/>
+    <id>http://hezeliyulin.gitee.io/2021/03/07/about/</id>
+    <published>2021-03-07T09:31:09.000Z</published>
+    <updated>2021-03-07T09:31:09.342Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Blog从搭建到放弃</title>

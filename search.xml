@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>about</title>
+      <link href="2021/03/07/about/"/>
+      <url>2021/03/07/about/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Blog从搭建到放弃</title>
+      <link href="2021/03/07/Blog%E4%BB%8E%E6%90%AD%E5%BB%BA%E5%88%B0%E6%94%BE%E5%BC%83/"/>
+      <url>2021/03/07/Blog%E4%BB%8E%E6%90%AD%E5%BB%BA%E5%88%B0%E6%94%BE%E5%BC%83/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Blog从搭建到放弃成功"><a href="#Blog从搭建到放弃成功" class="headerlink" title="Blog从搭建到放弃成功"></a>Blog从搭建到<del>放弃</del>成功</h1><!-- index-menu --><h2 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h2><h3 id="下载相关软件"><a href="#下载相关软件" class="headerlink" title="下载相关软件"></a>下载相关软件</h3><ul><li><a href="https://www.apachefriends.org/xampp-files/7.2.30/xampp-linux-x64-7.2.30-0-installer.run">Xampp</a> </li><li><a href="https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.73-installer.msi">Putty</a> </li><li><a href="https://winscp.net/eng/docs/lang:chs">Winscp</a> </li><li><a href="https://mirrors.tuna.tsinghua.edu.cn/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.8.0-amd64-lxde.iso">Debian安装镜像</a></li></ul><h3 id="安装Debian"><a href="#安装Debian" class="headerlink" title="安装Debian"></a>安装Debian</h3><blockquote><ol><li>ISO文件下载完成后刻录它到 USB 或 DVD，使其可用来启动。</li><li><strong>使用安装可启动介质（USB / DVD）启动你的电脑系统重启你将安装 Debian 10 的电脑</strong>，转到 BIOS 设置，并设置启动介质为 USB 或 DVD。 用可启动介质启动电脑后，那么我们将看到下面的屏幕。选择第一个选项 “GraphicalInstall”。</li><li><strong>选择你的首选语言、位置和键盘布局</strong>。在这个步骤中，你将被要求选择你的首选语言。点击 “Continue”。选择你的首选位置，电脑系统将依照位置自动设置时区。现在选择适合于你安装设备的键盘布局。点击 “Continue”<br>以继续。</li><li><strong>为 Debian 10 系统设置主机名称和域名</strong>。设置适合于你的环境的主机名，然后在 “Continue” 上单击，就我而言, 我指定主机名为 “debian10-buster”。指定适合于环境的域名，并安装，然后在 “Continue” 上单击。</li><li><strong>指定 root 用户的密码</strong>，在下面的屏幕中指定 root 密码，然后在 “Continue” 上单击。</li><li><strong>创建本地用户和它的密码</strong>。在这个步骤中，你将被提示指定本地用户具体信息，如完整的姓名、用户名和密码，在“Continue” 上单击。在 “Continue” 上单击，并在接下来的窗口中指定密码。</li><li><strong>为 Debian 10 选择硬盘分区方案</strong>。在这个步骤中，为 Debian 10 选择硬盘分区方案，就我而言，我有 40 GB 硬盘可用于操作系统安装。分区方案有两种类型：<em>向导分区</em>（安装器将自动创建需要的分区），<em>手动分区</em>（正如名字所示，使用这种方式，我们可以手动创建分区方案）在这篇教程中，我们将在我42 GB 硬盘上使用带有 LVM 的向导分区。在 “Continue” 上单击来继续，正如我们所视，我大约有 42 GB 硬盘空间，选择“Continue”。在接下来的屏幕中，你将被要求选择分区，如果是 Linux 新用户，那么选择第一个选项。假使你想要一个独立的 home分区，那么选择第二种方案，否则选择第三种方案，它们将为 /home、/var 和 /tmp创建独立的分区。就我而言，我将通过选择第三种选项来为 /home、/var 和 /tmp 创建独立的分区。在接下来的屏幕中，选择 “yes”来将更改写到磁盘中，配置 LVM ，然后在 “Continue” 上单击。在接下来的屏幕中，将显示分区表，验证分区大小、文件系统类型和挂载点。在 “Continue” 上单击来继续，在接下来的屏幕中，选择“yes” 来写更改到磁盘中，在 “Continue” 上单击来继续安装，</li><li><strong>Debian 10 安装开始</strong>。在这一步骤中，Debian 10 的安装已经开始，并正在进行中，在安装期间，安装器将提示你扫描 CD/DVD 以配置软件包管理器，选择 “No” ，然后在 “Continue”上单击。在接下来的屏幕中，如果你想配置基于网络的软件包管理器选择 “yes” ，但是为了使这个方式工作，要确保你的系统连接到了网络，否则选择“No”。在 “Continue” 上单击来配置基于你本地的软件包管理器，在接下来的几个屏幕中，你将被提示选择本地和 Debian软件包存储库 URL ，然后你将获得下面的屏幕。选择 “No” 来跳过软件包审查步骤，然后在 “Continue”上单击。在接下来的窗口中，你将被提示选择电脑桌面环境和其它软件包，就我而言，我选择 “Gnome Desktop” ，“SSHServer” 和 “Standard System utilities”。在 “Continue” 上单击来继续安装，选择选项 “yes”来安装 Grub 引导加载程序。在 “Continue”上单击来继续，然后在接下来的窗口中选择将安装引导加载程序的磁盘（/dev/sda）。在 “Continue”上单击来继续安装，一旦安装完成，安装器将提示我们来重启系统，在 “Continue” 上单击来重启你的系统，不要忘记在 BIOS设置中更改启动介质，以便系统从我们已经安装 Debian 10 操作系统的硬盘启动。</li><li><strong>启动你新安装的 Debian 10 系统</strong>。在成功安装后，一旦我们重启系统，我们将获取下面的引导加载程序屏幕。选择第一个选项 “Debian GNU/Linux”并敲击回车键。一旦系统启动，使用我在安装期间创建的本地用户和它的密码。在成功登录后，将看到如下电脑桌面屏幕，这证实 Debian 10已经成功安装。</li></ol></blockquote><h2 id="搭建服务端"><a href="#搭建服务端" class="headerlink" title="搭建服务端"></a>搭建服务端</h2><blockquote><p>你只需要一双勤劳的手，和充足的时间！</p></blockquote><h3 id="在服务器端安装ssh"><a href="#在服务器端安装ssh" class="headerlink" title="在服务器端安装ssh"></a>在服务器端安装ssh</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> apt install openssh</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> systemctl start ssh</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> systemctl <span class="built_in">enable</span> ssh</span></span><br></pre></td></tr></table></figure><h3 id="安装Winscp"><a href="#安装Winscp" class="headerlink" title="安装Winscp"></a>安装Winscp</h3><ol><li>下载WinSCP 5.7 双击”WinSCP “进行安装，选择”简体中文”。 <br><img src="http://blog.liyulin.top/typecho/usr/uploads/2021/02/3656459387.png#vwid=299&vhei=152" alt="20151107113930629.png"></li><li>然后点击下一步，选择”我接受”。 <br><img src="http://blog.liyulin.top/typecho/usr/uploads/2021/02/3935051090.png#vwid=499&vhei=387" alt="20151107114809234.png"></li><li>选择安装组件，这里默认即可。 <br><img src="http://blog.liyulin.top/typecho/usr/uploads/2021/02/318867946.png#vwid=499&vhei=387" alt="20151107115347370.png"></li><li>选择额外任务，这里根据个人喜好来选择（我选择默认）。 <img src="http://blog.liyulin.top/typecho/usr/uploads/2021/02/271344820.png#vwid=499&vhei=387" alt="20151107115427072.png"></li><li>初始化用户设置选择”用户界面风格”。 <img src="http://blog.liyulin.top/typecho/usr/uploads/2021/02/1642436597.png#vwid=499&vhei=387" alt="20151107115556628.png"></li><li>准备安装，确认检查设置（可通过”上一步”进行修改）。 <img src="http://blog.liyulin.top/typecho/usr/uploads/2021/02/2739655249.png#vwid=499&vhei=387" alt="20151107115652615.png"></li><li>然后开始，安装完成。 <img src="http://blog.liyulin.top/typecho/usr/uploads/2021/02/4147986869.png#vwid=499&vhei=387" alt="20151107115758014.png"></li></ol><h2 id="配置服务端"><a href="#配置服务端" class="headerlink" title="配置服务端"></a>配置服务端</h2><h2 id="安装blog软件"><a href="#安装blog软件" class="headerlink" title="安装blog软件"></a>安装blog软件</h2><h2 id="微调"><a href="#微调" class="headerlink" title="微调"></a>微调</h2><h2 id="公网穿透"><a href="#公网穿透" class="headerlink" title="公网穿透"></a>公网穿透</h2><h2 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h2>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="2021/03/07/hello-world/"/>
+      <url>2021/03/07/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
