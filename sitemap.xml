@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://liyulin-s.github.io/2021/03/07/about/</loc>
+    <loc>https://liyulin-s.github.io/about/index.html</loc>
     
-    <lastmod>2021-03-07</lastmod>
+    <lastmod>2021-03-09</lastmod>
     
   </url>
   
@@ -25,7 +25,7 @@
 
   <url>
     <loc>https://liyulin-s.github.io/</loc>
-    <lastmod>2021-03-07</lastmod>
+    <lastmod>2021-03-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>

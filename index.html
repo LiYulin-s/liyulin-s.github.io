@@ -1,383 +1,202 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>一个越共的Blog - 电子越共会梦见仿生胡志明吗？</title><meta name="keywords" content="blog,cpp"><meta name="author" content="Li Yulin"><meta name="copyright" content="Li Yulin"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="一个脱离了高级趣味的人">
+<meta property="og:type" content="website">
+<meta property="og:title" content="一个越共的Blog">
+<meta property="og:url" content="https://liyulin-s.github.io/index.html">
+<meta property="og:site_name" content="一个越共的Blog">
+<meta property="og:description" content="一个脱离了高级趣味的人">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://liyulin-s.github.io/null">
+<meta property="article:author" content="Li Yulin">
+<meta property="article:tag" content="blog,cpp">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://liyulin-s.github.io/null"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://liyulin-s.github.io/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = { 
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2021-03-10 21:24:29'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
 
-<head>
-  <meta charset="utf-8">
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
   
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
   
-  <meta name="keywords" content="blog,cpp">
-  
-  
-  <meta name="description" content="一个脱离了高级趣味的人">
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <title>
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
     
-    一个越共的Blog</title>
-  
-  <link rel="shortcut icon" href="/favicon.ico">
-  
-  
-<link rel="stylesheet" href="/css/style.css">
-
-  
-  
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
-
-  
-  
-<script src="/js/pace.min.js"></script>
-
-<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="一个越共的Blog" type="application/atom+xml">
-</head>
-
-<body>
-  <main class="content">
-    <section class="jumbotron">
-  <div class="video">
-    
-    <div class="video-frame">
-      <img src="/images/ocean/overlay-hero.png" alt="Decorative image frame">
-    </div>
-    
-    <div class="video-media">
-      <video playsinline="" autoplay="" loop="" muted="" data-autoplay="" poster="/images/ocean/ocean.png"
-        x5-video-player-type="h5">
-        <source src="/images/ocean/ocean.mp4" type="video/mp4">
-        <source src="/images/ocean/ocean.ogv" type="video/ogg">
-        <source src="/images/ocean/ocean.webm" type="video/webm">
-        <p>Your user agent does not support the HTML5 Video element.</p>
-      </video>
-      <div class="video-overlay"></div>
-    </div>
-    <div class="video-inner text-center text-white">
-      <h1><a href="/">一个越共的Blog</a></h1>
-      <p>电子越共会梦见仿生胡志明吗？</p>
-      <div><img src="/images/hexo-inverted.svg" class="brand" alt="一个越共的Blog"></div>
-    </div>
-    <div class="video-learn-more">
-      <a class="anchor" href="#landingpage"><i class="fe fe-mouse"></i></a>
-    </div>
-  </div>
-</section>
-<div id="landingpage">
-  <section class="outer">
-  <article class="articles">
-    
-    <h1 class="page-type-title"></h1>
-    
-    
-    <article id="post-about" class="article article-type-post" itemscope
-  itemprop="blogPost" data-scroll-reveal>
-
-  <div class="article-inner">
-    
-    <header class="article-header">
-      
-
-<h2 itemprop="name">
-  <a class="article-title" href="/2021/03/07/about/">about</a>
-</h2>
-
-
-
-    </header>
-    
-
-    
-    <div class="article-meta">
-      <a href="/2021/03/07/about/" class="article-date">
-  <time datetime="2021-03-07T09:31:09.000Z" itemprop="datePublished">2021-03-07</time>
-</a>
-      
-    </div>
-    
-
-    
-
-    <div class="article-entry" itemprop="articleBody">
-      
-      
-      
-      
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://liyulin-s.github.io/2021/03/07/about/" data-id="cklz678f00001c3sb4bnx4aj6" class="article-share-link">
-        分享
-      </a>
-      
-    </footer>
-
-  </div>
-
-  
-
-  
-
-</article>
-    
-    <article id="post-Blog从搭建到放弃" class="article article-type-post" itemscope
-  itemprop="blogPost" data-scroll-reveal>
-
-  <div class="article-inner">
-    
-    <header class="article-header">
-      
-
-<h2 itemprop="name">
-  <a class="article-title" href="/2021/03/07/Blog%E4%BB%8E%E6%90%AD%E5%BB%BA%E5%88%B0%E6%94%BE%E5%BC%83/">Blog从搭建到放弃</a>
-</h2>
-
-
-
-    </header>
-    
-
-    
-    <div class="article-meta">
-      <a href="/2021/03/07/Blog%E4%BB%8E%E6%90%AD%E5%BB%BA%E5%88%B0%E6%94%BE%E5%BC%83/" class="article-date">
-  <time datetime="2021-03-07T06:45:28.000Z" itemprop="datePublished">2021-03-07</time>
-</a>
-      
-    </div>
-    
-
-    
-
-    <div class="article-entry" itemprop="articleBody">
-      
-      
-      
-      <h1 id="Blog从搭建到放弃成功"><a href="#Blog从搭建到放弃成功" class="headerlink" title="Blog从搭建到放弃成功"></a>Blog从搭建到<del>放弃</del>成功</h1><!-- index-menu -->
-
-<h2 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h2><h3 id="下载相关软件"><a href="#下载相关软件" class="headerlink" title="下载相关软件"></a>下载相关软件</h3><ul>
-<li><a target="_blank" rel="noopener" href="https://www.apachefriends.org/xampp-files/7.2.30/xampp-linux-x64-7.2.30-0-installer.run">Xampp</a> </li>
-<li><a target="_blank" rel="noopener" href="https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.73-installer.msi">Putty</a> </li>
-<li><a target="_blank" rel="noopener" href="https://winscp.net/eng/docs/lang:chs">Winscp</a> </li>
-<li><a target="_blank" rel="noopener" href="https://mirrors.tuna.tsinghua.edu.cn/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.8.0-amd64-lxde.iso">Debian安装镜像</a></li>
-</ul>
-<h3 id="安装Debian"><a href="#安装Debian" class="headerlink" title="安装Debian"></a>安装Debian</h3><blockquote>
-<ol>
-<li>ISO文件下载完成后刻录它到 USB 或 DVD，使其可用来启动。</li>
-<li><strong>使用安装可启动介质（USB / DVD）启动你的电脑系统重启你将安装 Debian 10 的电脑</strong>，转到 BIOS 设置，并设置启动介质为 USB 或 DVD。 用可启动介质启动电脑后，那么我们将看到下面的屏幕。选择第一个选项 “GraphicalInstall”。</li>
-<li><strong>选择你的首选语言、位置和键盘布局</strong>。在这个步骤中，你将被要求选择你的首选语言。点击 “Continue”。选择你的首选位置，电脑系统将依照位置自动设置时区。现在选择适合于你安装设备的键盘布局。点击 “Continue”<br>以继续。</li>
-<li><strong>为 Debian 10 系统设置主机名称和域名</strong>。设置适合于你的环境的主机名，然后在 “Continue” 上单击，就我而言, 我指定主机名为 “debian10-buster”。指定适合于环境的域名，并安装，然后在 “Continue” 上单击。</li>
-<li><strong>指定 root 用户的密码</strong>，在下面的屏幕中指定 root 密码，然后在 “Continue” 上单击。</li>
-<li><strong>创建本地用户和它的密码</strong>。在这个步骤中，你将被提示指定本地用户具体信息，如完整的姓名、用户名和密码，在“Continue” 上单击。在 “Continue” 上单击，并在接下来的窗口中指定密码。</li>
-<li><strong>为 Debian 10 选择硬盘分区方案</strong>。在这个步骤中，为 Debian 10 选择硬盘分区方案，就我而言，我有 40 GB 硬盘可用于操作系统安装。分区方案有两种类型：<em>向导分区</em>（安装器将自动创建需要的分区），<em>手动分区</em>（正如名字所示，使用这种方式，我们可以手动创建分区方案）在这篇教程中，我们将在我42 GB 硬盘上使用带有 LVM 的向导分区。在 “Continue” 上单击来继续，正如我们所视，我大约有 42 GB 硬盘空间，选择“Continue”。在接下来的屏幕中，你将被要求选择分区，如果是 Linux 新用户，那么选择第一个选项。假使你想要一个独立的 home分区，那么选择第二种方案，否则选择第三种方案，它们将为 /home、/var 和 /tmp创建独立的分区。就我而言，我将通过选择第三种选项来为 /home、/var 和 /tmp 创建独立的分区。在接下来的屏幕中，选择 “yes”来将更改写到磁盘中，配置 LVM ，然后在 “Continue” 上单击。在接下来的屏幕中，将显示分区表，验证分区大小、文件系统类型和挂载点。在 “Continue” 上单击来继续，在接下来的屏幕中，选择“yes” 来写更改到磁盘中，在 “Continue” 上单击来继续安装，</li>
-<li><strong>Debian 10 安装开始</strong>。在这一步骤中，Debian 10 的安装已经开始，并正在进行中，在安装期间，安装器将提示你扫描 CD/DVD 以配置软件包管理器，选择 “No” ，然后在 “Continue”上单击。在接下来的屏幕中，如果你想配置基于网络的软件包管理器选择 “yes” ，但是为了使这个方式工作，要确保你的系统连接到了网络，否则选择“No”。在 “Continue” 上单击来配置基于你本地的软件包管理器，在接下来的几个屏幕中，你将被提示选择本地和 Debian软件包存储库 URL ，然后你将获得下面的屏幕。选择 “No” 来跳过软件包审查步骤，然后在 “Continue”上单击。在接下来的窗口中，你将被提示选择电脑桌面环境和其它软件包，就我而言，我选择 “Gnome Desktop” ，“SSHServer” 和 “Standard System utilities”。在 “Continue” 上单击来继续安装，选择选项 “yes”来安装 Grub 引导加载程序。在 “Continue”上单击来继续，然后在接下来的窗口中选择将安装引导加载程序的磁盘（/dev/sda）。在 “Continue”上单击来继续安装，一旦安装完成，安装器将提示我们来重启系统，在 “Continue” 上单击来重启你的系统，不要忘记在 BIOS设置中更改启动介质，以便系统从我们已经安装 Debian 10 操作系统的硬盘启动。</li>
-<li><strong>启动你新安装的 Debian 10 系统</strong>。在成功安装后，一旦我们重启系统，我们将获取下面的引导加载程序屏幕。选择第一个选项 “Debian GNU/Linux”并敲击回车键。一旦系统启动，使用我在安装期间创建的本地用户和它的密码。在成功登录后，将看到如下电脑桌面屏幕，这证实 Debian 10已经成功安装。</li>
-</ol>
-</blockquote>
-<h2 id="搭建服务端"><a href="#搭建服务端" class="headerlink" title="搭建服务端"></a>搭建服务端</h2><blockquote>
-<p>你只需要一双勤劳的手，和充足的时间！</p>
-</blockquote>
-<h3 id="在服务器端安装ssh"><a href="#在服务器端安装ssh" class="headerlink" title="在服务器端安装ssh"></a>在服务器端安装ssh</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> apt install openssh</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> systemctl start ssh</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> systemctl <span class="built_in">enable</span> ssh</span></span><br></pre></td></tr></table></figure>
-<h3 id="安装Winscp"><a href="#安装Winscp" class="headerlink" title="安装Winscp"></a>安装Winscp</h3><ol>
-<li>下载WinSCP 5.7 双击”WinSCP “进行安装，选择”简体中文”。 <br><img src="http://blog.liyulin.top/typecho/usr/uploads/2021/02/3656459387.png#vwid=299&vhei=152" alt="20151107113930629.png"></li>
-<li>然后点击下一步，选择”我接受”。 <br><img src="http://blog.liyulin.top/typecho/usr/uploads/2021/02/3935051090.png#vwid=499&vhei=387" alt="20151107114809234.png"></li>
-<li>选择安装组件，这里默认即可。 <br><img src="http://blog.liyulin.top/typecho/usr/uploads/2021/02/318867946.png#vwid=499&vhei=387" alt="20151107115347370.png"></li>
-<li>选择额外任务，这里根据个人喜好来选择（我选择默认）。 <img src="http://blog.liyulin.top/typecho/usr/uploads/2021/02/271344820.png#vwid=499&vhei=387" alt="20151107115427072.png"></li>
-<li>初始化用户设置选择”用户界面风格”。 <img src="http://blog.liyulin.top/typecho/usr/uploads/2021/02/1642436597.png#vwid=499&vhei=387" alt="20151107115556628.png"></li>
-<li>准备安装，确认检查设置（可通过”上一步”进行修改）。 <img src="http://blog.liyulin.top/typecho/usr/uploads/2021/02/2739655249.png#vwid=499&vhei=387" alt="20151107115652615.png"></li>
-<li>然后开始，安装完成。 <img src="http://blog.liyulin.top/typecho/usr/uploads/2021/02/4147986869.png#vwid=499&vhei=387" alt="20151107115758014.png"></li>
-</ol>
-<h2 id="配置服务端"><a href="#配置服务端" class="headerlink" title="配置服务端"></a>配置服务端</h2><h2 id="安装blog软件"><a href="#安装blog软件" class="headerlink" title="安装blog软件"></a>安装blog软件</h2><h2 id="微调"><a href="#微调" class="headerlink" title="微调"></a>微调</h2><h2 id="公网穿透"><a href="#公网穿透" class="headerlink" title="公网穿透"></a>公网穿透</h2><h2 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h2>
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://liyulin-s.github.io/2021/03/07/Blog%E4%BB%8E%E6%90%AD%E5%BB%BA%E5%88%B0%E6%94%BE%E5%BC%83/" data-id="cklz678ev0000c3sbhwkqc4ft" class="article-share-link">
-        分享
-      </a>
-      
-    </footer>
-
-  </div>
-
-  
-
-  
-
-</article>
-    
-    <article id="post-hello-world" class="article article-type-post" itemscope
-  itemprop="blogPost" data-scroll-reveal>
-
-  <div class="article-inner">
-    
-    <header class="article-header">
-      
-
-<h2 itemprop="name">
-  <a class="article-title" href="/2021/03/07/hello-world/">Hello World</a>
-</h2>
-
-
-
-    </header>
-    
-
-    
-    <div class="article-meta">
-      <a href="/2021/03/07/hello-world/" class="article-date">
-  <time datetime="2021-03-07T06:22:14.657Z" itemprop="datePublished">2021-03-07</time>
-</a>
-      
-    </div>
-    
-
-    
-
-    <div class="article-entry" itemprop="articleBody">
-      
-      
-      
-      <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://liyulin-s.github.io/2021/03/07/hello-world/" data-id="cklz678f10002c3sb19w61pkz" class="article-share-link">
-        分享
-      </a>
-      
-    </footer>
-
-  </div>
-
-  
-
-  
-
-</article>
-    
-  </article>
-  
-
-  
-</section>
-</div>
-
-    <footer class="footer">
-  <div class="outer">
-    <div class="float-right">
-      <ul class="list-inline">
-  
-  <li><i class="fe fe-bar-chart"></i> <span id="busuanzi_value_site_pv"></span></li>
-  
-  <li><i class="fe fe-smile-alt"></i> <span id="busuanzi_value_site_uv"></span></li>
-  
-</ul>
-    </div>
-    <ul class="list-inline">
-      <li>一个越共的Blog &copy; 2021</li>
-      
-        <li>京ICP备17054916号-2</li>
-      
-      <li>Powered by <a href="http://hexo.io/" target="_blank">Hexo</a></li>
-      <li>theme  <a target="_blank" rel="noopener" href="https://github.com/zhwangart/hexo-theme-ocean">Ocean</a></li>
-    </ul>
-  </div>
-</footer>
-  </main>
-  <aside class="sidebar">
-    <button class="navbar-toggle"></button>
-<nav class="navbar">
-  
-  <div class="logo">
-    <a href="/"><img src="/images/hexo.svg" alt="一个越共的Blog"></a>
-  </div>
-  
-  <ul class="nav nav-main">
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/">Home</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/archives">Archives</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/gallery">Gallery</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/about">About</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link nav-item-search" title="搜索">
-        <i class="fe fe-search"></i>
-        搜索
-      </a>
-    </li>
-  </ul>
-</nav>
-<nav class="navbar navbar-bottom">
-  <ul class="nav">
-    <li class="nav-item">
-      <div class="totop" id="totop">
-  <i class="fe fe-rocket"></i>
-</div>
-    </li>
-    <li class="nav-item">
-      
-      <a class="nav-item-link" target="_blank" href="/atom.xml" title="RSS Feed">
-        <i class="fe fe-feed"></i>
-      </a>
-      
-    </li>
-  </ul>
-</nav>
-<div class="search-form-wrap">
-  <div class="local-search local-search-plugin">
-  <input type="search" id="local-search-input" class="local-search-input" placeholder="Search...">
-  <div id="local-search-result" class="local-search-result"></div>
-</div>
-</div>
-  </aside>
-  
-<script src="/js/jquery-2.0.3.min.js"></script>
-
-
-<script src="/js/jquery.justifiedGallery.min.js"></script>
-
-
-<script src="/js/lazyload.min.js"></script>
-
-
-<script src="/js/busuanzi-2.3.pure.min.js"></script>
-
-
-
-<script src="/fancybox/jquery.fancybox.min.js"></script>
-
-
-
-
-<script src="/js/copybtn.js"></script>
-
-
-
-
-
-
-<script src="/js/ocean.js"></script>
-
-</body>
-
-</html>
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    })(window)</script><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="一个越共的Blog" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="/null" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('https://bing.ioliu.cn/v1/rand')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">一个越共的Blog</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">一个越共的Blog</h1><div id="site-subtitle"><span id="subtitle"></span></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/03/07/Blog%E4%BB%8E%E6%90%AD%E5%BB%BA%E5%88%B0%E6%94%BE%E5%BC%83/" title="Blog从搭建到放弃">     <img class="post_bg" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Blog从搭建到放弃"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/03/07/Blog%E4%BB%8E%E6%90%AD%E5%BB%BA%E5%88%B0%E6%94%BE%E5%BC%83/" title="Blog从搭建到放弃">Blog从搭建到放弃</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-03-07T06:45:28.000Z" title="发表于 2021-03-07 14:45:28">2021-03-07</time></span></div><div class="content">Blog从搭建到放弃成功
+
+前期准备下载相关软件
+Xampp 
+Putty 
+Winscp 
+Debian安装镜像
+
+安装Debian
+
+ISO文件下载完成后刻录它到 USB 或 DVD，使其可用来启动。
+使用安装可启动介质（USB / DVD）启动你的电脑系统重启你将安装 Debian 10 的电脑，转到 BIOS 设置，并设置启动介质为 USB 或 DVD。 用可启动介质启动电脑后，那么我们将看到下面的屏幕。选择第一个选项 “GraphicalInstall”。
+选择你的首选语言、位置和键盘布局。在这个步骤中，你将被要求选择你的首选语言。点击 “Continue”。选择你的首选位置，电脑系统将依照位置自动设置时区。现在选择适合于你安装设备的键盘布局。点击 “Continue”以继续。
+为 Debian 10 系统设置主机名称和域名。设置适合于你的环境的主机名，然后在 “Continue” 上单击，就我而言, 我指定主机名为 “debian10-buster”。指定适合于环境的域名，并安装，然后在 “Continue” 上单击。
+指定 root 用户的密码，在下面的屏幕中指定 roo ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/03/07/hello-world/" title="Hello World">     <img class="post_bg" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hello World"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/03/07/hello-world/" title="Hello World">Hello World</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-03-07T06:22:14.657Z" title="发表于 2021-03-07 14:22:14">2021-03-07</time></span></div><div class="content">Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+Quick StartCreate a new post1$ hexo new &quot;My New Post&quot;
+
+More info: Writing
+Run server1$ hexo server
+
+More info: Server
+Generate static files1$ hexo generate
+
+More info: Generating
+Deploy to remote sites1$ hexo deploy
+
+More info: Deployment
+</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-info-avatar is-center"><img class="avatar-img" src="/null" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">Li Yulin</div><div class="author-info__description">一个脱离了高级趣味的人</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2021/03/07/Blog%E4%BB%8E%E6%90%AD%E5%BB%BA%E5%88%B0%E6%94%BE%E5%BC%83/" title="Blog从搭建到放弃"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Blog从搭建到放弃"/></a><div class="content"><a class="title" href="/2021/03/07/Blog%E4%BB%8E%E6%90%AD%E5%BB%BA%E5%88%B0%E6%94%BE%E5%BC%83/" title="Blog从搭建到放弃">Blog从搭建到放弃</a><time datetime="2021-03-07T06:45:28.000Z" title="发表于 2021-03-07 14:45:28">2021-03-07</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/03/07/hello-world/" title="Hello World"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hello World"/></a><div class="content"><a class="title" href="/2021/03/07/hello-world/" title="Hello World">Hello World</a><time datetime="2021-03-07T06:22:14.657Z" title="发表于 2021-03-07 14:22:14">2021-03-07</time></div></div></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/03/"><span class="card-archive-list-date">三月 2021</span><span class="card-archive-list-count">2</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">2</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2021-03-10T13:24:29.121Z"></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2021 By Li Yulin</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>function subtitleType () {
+  getScript('https://sdk.jinrishici.com/v2/browser/jinrishici.js').then(() => {
+    jinrishici.load(function (result) {
+      if (true) {
+        var sub = "".length == 0 ? new Array() : "".split(',')
+        var content = result.data.content
+        var both = sub.unshift(content)
+        var typed = new Typed('#subtitle', {
+          strings: sub,
+          startDelay: 300,
+          typeSpeed: 150,
+          loop: true,
+          backSpeed: 50,
+        })
+      } else {
+        document.getElementById('subtitle').innerHTML = result.data.content
+      }
+    })
+  })
+}
+
+if (true) {
+  if (typeof Typed === 'function') {
+    subtitleType()
+  } else {
+    getScript('https://cdn.jsdelivr.net/npm/typed.js/lib/typed.min.js').then(subtitleType)
+  }
+} else {
+  subtitleType()
+}
+</script></div><script defer="defer" id="fluttering_ribbon" mobile="true" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
