@@ -3,11 +3,11 @@
   <title>一个越共的Blog</title>
   
   <subtitle>电子越共会梦见仿生胡志明吗？</subtitle>
-  <link href="https://liyulin-s.github.io/atom.xml" rel="self"/>
+  <link href="http://www.liyulin.top/atom.xml" rel="self"/>
   
-  <link href="https://liyulin-s.github.io/"/>
+  <link href="http://www.liyulin.top/"/>
   <updated>2021-03-11T13:49:48.084Z</updated>
-  <id>https://liyulin-s.github.io/</id>
+  <id>http://www.liyulin.top/</id>
   
   <author>
     <name>Li Yulin</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Blog从搭建到放弃</title>
-    <link href="https://liyulin-s.github.io/2021/03/07/Blog%E4%BB%8E%E6%90%AD%E5%BB%BA%E5%88%B0%E6%94%BE%E5%BC%83/"/>
-    <id>https://liyulin-s.github.io/2021/03/07/Blog%E4%BB%8E%E6%90%AD%E5%BB%BA%E5%88%B0%E6%94%BE%E5%BC%83/</id>
+    <link href="http://www.liyulin.top/2021/03/07/Blog%E4%BB%8E%E6%90%AD%E5%BB%BA%E5%88%B0%E6%94%BE%E5%BC%83/"/>
+    <id>http://www.liyulin.top/2021/03/07/Blog%E4%BB%8E%E6%90%AD%E5%BB%BA%E5%88%B0%E6%94%BE%E5%BC%83/</id>
     <published>2021-03-07T06:45:28.000Z</published>
     <updated>2021-03-11T13:49:48.084Z</updated>
     
@@ -36,18 +36,18 @@
     
     
     
-    <category term="blog" scheme="https://liyulin-s.github.io/tags/blog/"/>
+    <category term="blog" scheme="http://www.liyulin.top/tags/blog/"/>
     
-    <category term="linux" scheme="https://liyulin-s.github.io/tags/linux/"/>
+    <category term="linux" scheme="http://www.liyulin.top/tags/linux/"/>
     
-    <category term="php" scheme="https://liyulin-s.github.io/tags/php/"/>
+    <category term="php" scheme="http://www.liyulin.top/tags/php/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://liyulin-s.github.io/2021/03/07/hello-world/"/>
-    <id>https://liyulin-s.github.io/2021/03/07/hello-world/</id>
+    <link href="http://www.liyulin.top/2021/03/07/hello-world/"/>
+    <id>http://www.liyulin.top/2021/03/07/hello-world/</id>
     <published>2021-03-07T06:22:14.657Z</published>
     <updated>2021-03-07T06:22:14.657Z</updated>
     
